@@ -10,7 +10,7 @@
     "test": "echo \"No test specified\" && exit 0",
     "start": "quasar dev",
     "predeploy": "quasar build",
-    "deploy": "gh-pages dist/spa"
+    "deploy": "gh-pages -d dist/spa"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
